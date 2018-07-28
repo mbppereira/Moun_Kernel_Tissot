@@ -232,11 +232,6 @@ echo " ";
 cd ~/Moun_Kernel/Moun_Kernel_V$KV-TissotTreble
 zip -r9 Moun_Kernel_V$KV-TissotTreble.zip * -x Moun_Kernel_V$KV-TissotTreble.zip
 
-echo " uploading to Mega "; 
-
-megaput --path /Root/XDA/Moun_Kernel_Tissot/$KV ~/Moun_Kernel/Moun_Kernel_V$KV-TissotTreble/Moun_Kernel_V$KV-TissotTreble.zip
-
-
 echo " ";
 echo " ";
 echo " ";
@@ -343,4 +338,4 @@ echo " ";
 echo " ";
 echo " ";
 echo " ";
-echo " Compiling and uploading is done !! ";
+echo " Compiling is done !! ";
